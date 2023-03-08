@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19508985-9afb-4083-9959-82917fc4e86a" name="Changes" comment="binary searchs problems">
-      <change afterPath="$PROJECT_DIR$/src/InfiniteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchInMountain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstAndLastPostion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstAndLastPostion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +81,26 @@
       <option name="project" value="LOCAL" />
       <updated>1677996303400</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="binary searchs problems">
+      <created>1678171851007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678171851007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="binary searchs problems" />

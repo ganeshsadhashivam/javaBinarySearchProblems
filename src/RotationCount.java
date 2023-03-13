@@ -1,59 +1,16 @@
-public class RotatedSortedArray {
+public class RotationCount {
     public static void main(String[] args) {
-int[] arr={1};
-int []arrWithDuplicates = {1,2,2,3,4,5,6};
-System.out.println(findPivot(arr));
-        System.out.println(findPivotWithDupicates(arrWithDuplicates));
+        int [] arr = {4,5,6,7,0,1,2};
+      //  int [] arr = {1,2,3,4,5,6,7};
+        System.out.println(countRotations(arr));
     }
 
-static int search (int[] nums,int target){
-     int pivot=   findPivot(nums);
-
-     //if you didn't found it means the array is not rotated
-     if(pivot == -1){
-         //just do binary search
-    return binarySearch(nums,target,0,nums.length-1);
-     }
-
-     //if pivot is found you have
-    //case1
-    if(nums[pivot] == target){
-        return pivot;
+    private static int countRotations(int [] arr){
+        int pivot = findPivot(arr);
+        return pivot + 1;
     }
 
-    //case2
-    if(target > nums[0]){
-        return binarySearch(nums,target,0,pivot-1);
-    }
-
-    return binarySearch(nums,target,pivot+1, nums.length-1);
-}
-
-static int binarySearch(int []arr,int target,int start,int end){
-
-        while(start<=end){
-            int mid= start+(end-start)/2;
-
-
-            if(target < arr[mid]){
-                end = mid-1;
-
-            }
-            if(target > arr[mid]){
-                start = mid+1;
-
-            }
-            else{
-                //ans found
-                return mid;
-            }
-        }
-    return start;
-
-}
-
-
-//this will not work with duplicates values
+    //use for non duplicates
     static int findPivot(int []arr){
         int start=0;
         int end=arr.length-1;
@@ -80,6 +37,7 @@ static int binarySearch(int []arr,int target,int start,int end){
         return -1;
     }
 
+    //use for duplicates
     static int findPivotWithDupicates(int []arr){
         int start=0;
         int end=arr.length-1;
@@ -106,7 +64,7 @@ static int binarySearch(int []arr,int target,int start,int end){
                     return start;
                 }
                 start++;
-               //check whether end is pivot
+                //check whether end is pivot
                 if(arr[end] <arr[end-1]){
                     return end-1;
                 }

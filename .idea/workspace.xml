@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19508985-9afb-4083-9959-82917fc4e86a" name="Changes" comment="Rotated sorted Array">
-      <change afterPath="$PROJECT_DIR$/src/RotationCount.java" afterDir="false" />
+    <list default="true" id="19508985-9afb-4083-9959-82917fc4e86a" name="Changes" comment="Rotation count">
+      <change afterPath="$PROJECT_DIR$/src/SplitArry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RotatedSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="SplitArray" />
+      </map>
+    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,14 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RotationCount">
-    <configuration name="FirstAndLastPostion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstAndLastPostion" />
-      <module name="BinarySearchComplete" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SplitArry">
     <configuration name="InfiniteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InfiniteArray" />
       <module name="BinarySearchComplete" />
@@ -72,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SplitArry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SplitArry" />
+      <module name="BinarySearchComplete" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitArry" />
         <item itemvalue="Application.RotationCount" />
         <item itemvalue="Application.RotatedSortedArray" />
         <item itemvalue="Application.Mountain" />
         <item itemvalue="Application.InfiniteArray" />
-        <item itemvalue="Application.FirstAndLastPostion" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +144,7 @@
     <MESSAGE value="binary searchs problems" />
     <MESSAGE value="search in mountain Problem" />
     <MESSAGE value="Rotated sorted Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotated sorted Array" />
+    <MESSAGE value="Rotation count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rotation count" />
   </component>
 </project>

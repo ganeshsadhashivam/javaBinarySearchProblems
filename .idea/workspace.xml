@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19508985-9afb-4083-9959-82917fc4e86a" name="Changes" comment="split Array">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchIn2DArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortedMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
